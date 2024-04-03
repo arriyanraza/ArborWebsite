@@ -1,0 +1,25 @@
+/* Hero.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Adjust based on your needs */
+    background-image: url('/path-to-your-image.jpg'); /* Add your image path */
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-container h1 {
+    margin-bottom: 20px;
+    font-size: 3rem; /* Adjust based on your needs */
+  }
+  
+  .hero-container h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem; /* Adjust based on your needs */
+  }
+  
+
+  

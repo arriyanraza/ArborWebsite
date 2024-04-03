@@ -1,0 +1,24 @@
+.cohort {
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+  
+  .cohort.visible {
+    opacity: 1;
+  }
+  
+  .students {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .student {
+    margin: 10px;
+  }
+  
+  .student img {
+    width: 100px; /* Adjust based on your needs */
+    height: 100px; /* Adjust based on your needs */
+    object-fit: cover;
+  }
+  
